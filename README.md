@@ -1,8 +1,8 @@
 Team Members:
 Matt Fuchs: 22161681 Nariman Milanfar: 61408886 Alex Caldwell: 90384462
 Project Description and Details:
-My Discussion Forum
-Project Proposal
+My Discussion Forum.
+Project Proposal:
 This project will be a discussion forum where registered users can post and reply, while unregistered users will be able to browse posts. The project will also support administrator users who moderate discussions, and resolve user problems.
 Required Functionality:
 1. Create a user - this will include someone signing up with an email and creating a username with a password.
