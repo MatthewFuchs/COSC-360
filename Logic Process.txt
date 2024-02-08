@@ -1,0 +1,45 @@
+﻿User Logic Process:
+* Registration and Login:
+   * User registers for an account using a valid email address.
+   * After registration, the user logs in using their credentials.
+* Exploring the Forum:
+   * Users browse through forum categories and sub forums to find topics of interest.
+   * Views latest discussions, featured threads, and explores different sections.
+* Participating in Discussions:
+   * User clicks on a thread to read or participate in discussions.
+   * Can post new threads, reply to existing ones, and use formatting options.
+* User Profile Management:
+   * Accesses and updates their user profile.
+   * Manages account settings, notifications, and privacy preferences.
+   * Keeps track of friends and followers.
+* Searching for Content:
+   * Uses the search functionality to find specific threads or topics.
+   * Explores advanced search options for more precise results.
+* Reporting Content:
+   * Reports inappropriate content or violations to moderators.
+* Logging Out:
+   * Logs out when the session is complete.
+Admin Logic Process:
+* Authentication and Access:
+   * Admin logs in using secure credentials.
+   * Accesses the admin dashboard with additional privileges.
+* Moderation and Content Management:
+   * Monitors reported content and takes appropriate actions.
+   * Reviews user bans and manages content moderation settings.
+* User Management:
+   * Views and manages user accounts.
+   * Deals with user-reported issues and disputes.
+* Forum Structure and Categories:
+   * Adjusts forum categories and sub forums as needed.
+   * Adds or removes subforums based on user activity and interests.
+* Feature Management:
+   * Manages and announces new features.
+   * Reviews user feedback for potential improvements.
+* Community Engagement:
+   * Engages with the community, responds to inquiries, and fosters a positive environment.
+* Security and Privacy:
+   * Ensures the security of user data and compliance with privacy policies.
+   * Monitors and addresses any security concerns.
+* Site Maintenance:
+   * Performs routine maintenance tasks to ensure site stability.
+   * Addresses technical issues and updates as needed.
