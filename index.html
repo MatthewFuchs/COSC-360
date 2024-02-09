@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Home Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Forum</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#" id="loginLink">Login</a></li>
+                <li><a href="#" id="signupLink">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>Welcome to the Forum!</h2>
+        <p>Join the community and start engaging in discussions.</p>
+    
+        <div class="categories">
+            <h3>Forum Categories</h3>
+            <ul>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+            </ul>
+        </div>
+    
+        <div class="featured-threads">
+            <h3>Featured Threads</h3>
+            <ul>
+                <li><a href="#">Featured Thread 1</a></li>
+                <li><a href="#">Featured Thread 2</a></li>
+                <li><a href="#">Featured Thread 3</a></li>
+            </ul>
+        </div>
+    
+        <div class="latest-discussions">
+            <h3>Latest Discussions</h3>
+            <ul>
+                <li><a href="#">Discussion Topic 1</a></li>
+                <li><a href="#">Discussion Topic 2</a></li>
+                <li><a href="#">Discussion Topic 3</a></li>
+            </ul>
+        </div>
+    
+        <button id="clickMeButton">Click Me!</button>
+        <p id="outputMessage"></p>
+    </section>
+
+<footer class="footer">
+    <div class="footer-links">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Help Center</a>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 My Forum. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+    <script src="script.js"></script>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('loginModal')">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+    
+            <div class="forgot-login">
+            <a href="#" onclick="forgotLogin()">Forgot Login?</a>
+            </div>
+    
+            <button type="button" onclick="login()">Login</button>
+        </form>
+    </div>
+</div>
+
+<div id="signupModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('signupModal')">&times;</span>
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <div class="profile-picture-container">
+                <label for="profilePicture" class="profile-picture-label"></label>
+                <input type="file" id="profilePicture" name="profilePicture" accept="image/*" onchange="displayFileName()">
+            </div>
+
+            <div class="selected-file" id="selectedFile"></div>
+
+            <button type="button" onclick="signup()">Sign Up</button>
+        </form>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>
