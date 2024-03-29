@@ -4,7 +4,6 @@ require 'database_connection.php';
 
 session_start();
 
-
 $message = '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -30,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $message = 'Both fields are required.';
     }
     // Redirect back to the login form with a message
-    header("Location: login.php?message=" . urlencode($message));
+    header("Location: login.html?message=" . urlencode($message));
     exit;
 }
-?>
+

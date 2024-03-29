@@ -20,7 +20,7 @@
                 <li><a href="createPost.php">Create Post</a></li>
                 <li><a href="admin.php">Admin</a></li>
 
-                <li><a href="login.php" id="loginLink">Login</a></li>
+                <li><a href="login.html" id="loginLink">Login</a></li>
 
                 <li><a href="register.php" id="signupLink">Sign Up</a></li>
             </ul>
