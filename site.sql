@@ -37,4 +37,6 @@ CREATE TABLE IF NOT EXISTS image (
   FOREIGN KEY (userId) REFERENCES user(id)
 );
 
---INSERT INTO user (email, passwordHash, username) VALUES ('test@example.com', 'testpassword', 'testuser');
+INSERT INTO user (email, passwordHash, username) VALUES ('test@example.com', 'pass', 'user');
+GRANT ALL PRIVILEGES ON site_db.* TO 'user'@'localhost' IDENTIFIED BY 'pass';
+FLUSH PRIVILEGES;
